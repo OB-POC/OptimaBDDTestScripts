@@ -1,0 +1,234 @@
+[
+  {
+    "description": "    Description: The purpose of this feature is to maximise one's savings and minimise one's expenses by using lower AER debit balance\n    to pay off higher APR credit outstandings considering the minimum balance and optimizing the number of transactions",
+    "keyword": "Feature",
+    "name": "Test Best Payout Plan",
+    "line": 2,
+    "id": "test-best-payout-plan",
+    "tags": [
+      {
+        "name": "@BestMatch",
+        "line": 1
+      }
+    ],
+    "uri": "features\\BestPayoutPlan.feature",
+    "elements": [
+      {
+        "id": "test-best-payout-plan;user-opts-for-best-payout-plan-whose-credit-outstanding-is-less-than-debit-balance-with-different-apr-and-aer",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "User opts for best payout plan whose credit outstanding is less than debit balance with different APR and AER",
+        "tags": [
+          {
+            "name": "@BestMatch",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I authenticate \"emma\"",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I try to retrieve best payout plan for \"emma\"",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should get successful response for \"emma\"",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-best-payout-plan;user-opts-for-best-payout-plan-whose-credit-outstanding-is-less-than-debit-balance-with-same-apr-and-aer",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "User opts for best payout plan whose credit outstanding is less than debit balance with same APR and AER",
+        "tags": [
+          {
+            "name": "@BestMatch",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I authenticate \"paul\"",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I try to retrieve best payout plan for \"paul\"",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I should get successful response for \"paul\"",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-best-payout-plan;user-opts-for-best-payout-plan,-whose-credit-outstanding-is-more-than-debit-balance-with-different-apr-and-aer",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "User opts for best payout plan, whose credit outstanding is more than debit balance with different APR and AER",
+        "tags": [
+          {
+            "name": "@BestMatch",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "I authenticate \"becca\"",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I try to retrieve best payout plan for \"becca\"",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "I should get successful response for \"becca\"",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-best-payout-plan;user-opts-for-best-payout-plan,-whose-credit-outstanding-is-more-than-debit-balance-with-different-apr-and-aer",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "User opts for best payout plan, whose credit outstanding is more than debit balance with different APR and AER",
+        "tags": [
+          {
+            "name": "@BestMatch",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "I authenticate \"bob\"",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I try to retrieve best payout plan for \"bob\"",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "I should get successful response for \"bob\"",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

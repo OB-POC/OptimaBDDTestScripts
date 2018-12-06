@@ -1,0 +1,18 @@
+{
+  "name": "functionaltests_payoutplan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "author": "Hima Mohanty",
+  "license": "ISC",
+  "dependencies": {
+    "cucumber": "^5.0.2",
+    "cucumber-html-report": "^0.6.5",
+    "should": "^13.2.3",
+    "supertest": "^3.3.0"
+  },
+  "devDependencies": {}
+}
