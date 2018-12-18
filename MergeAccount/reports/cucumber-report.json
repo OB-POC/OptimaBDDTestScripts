@@ -1,0 +1,264 @@
+[
+  {
+    "elements": [
+      {
+        "id": "as-an-end-user-i-need-to-merge-all/some-accounts-into-a-new-lbg-account;merge-all-account-into-new-lbg-account",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "merge all account into new LBG account",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user logs in to openbanking \"DEV\" and enters the valid \"alice\" and \"d29uZGVybGFuZA==\"",
+            "result": {
+              "status": "passed",
+              "duration": 1638640
+            },
+            "line": 6,
+            "match": {
+              "location": "d:\\Assignment-master\\functionalTestScripts-master\\step-definitions\\LBG_offerstreps.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "navigates to Wallet page",
+            "result": {
+              "status": "passed",
+              "duration": 2406049
+            },
+            "line": 7,
+            "match": {
+              "location": "d:\\Assignment-master\\functionalTestScripts-master\\step-definitions\\LBG_offerstreps.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user clicks on optmize should land on optmize screen",
+            "result": {
+              "status": "passed",
+              "duration": 508053
+            },
+            "line": 8,
+            "match": {
+              "location": "d:\\Assignment-master\\functionalTestScripts-master\\step-definitions\\LBG_offerstreps.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "click on port account so that user can select the all existing accounts to transfer funds to LBG account",
+            "result": {
+              "status": "passed",
+              "duration": 347781
+            },
+            "line": 9,
+            "match": {
+              "location": "d:\\Assignment-master\\functionalTestScripts-master\\step-definitions\\LBG_offerstreps.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "click yes to confirm merge account and transfer successfull message should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 512396
+            },
+            "line": 10,
+            "match": {
+              "location": "d:\\Assignment-master\\functionalTestScripts-master\\step-definitions\\LBG_offerstreps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user should view transfered funds in LBG account from existing accounts",
+            "result": {
+              "status": "passed",
+              "duration": 311464
+            },
+            "line": 11,
+            "match": {
+              "location": "d:\\Assignment-master\\functionalTestScripts-master\\step-definitions\\LBG_offerstreps.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user should not view the other accounts which is ported in the Wallet screen",
+            "result": {
+              "status": "passed",
+              "duration": 605953
+            },
+            "line": 12,
+            "match": {
+              "location": "d:\\Assignment-master\\functionalTestScripts-master\\step-definitions\\LBG_offerstreps.js:61"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user logouts the application",
+            "result": {
+              "status": "passed",
+              "duration": 360414
+            },
+            "line": 13,
+            "match": {
+              "location": "d:\\Assignment-master\\functionalTestScripts-master\\step-definitions\\LBG_offerstreps.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 11014526691
+            },
+            "hidden": true,
+            "match": {
+              "location": "d:\\Assignment-master\\functionalTestScripts-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "as-an-end-user-i-need-to-merge-all/some-accounts-into-a-new-lbg-account;merge-all-account-into-new-lbg-account",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "merge all account into new LBG account",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user logs in to openbanking \"DEV\" and enters the valid \"john\" and \"ZG9l\"",
+            "result": {
+              "status": "passed",
+              "duration": 291332
+            },
+            "line": 6,
+            "match": {
+              "location": "d:\\Assignment-master\\functionalTestScripts-master\\step-definitions\\LBG_offerstreps.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "navigates to Wallet page",
+            "result": {
+              "status": "passed",
+              "duration": 364361
+            },
+            "line": 7,
+            "match": {
+              "location": "d:\\Assignment-master\\functionalTestScripts-master\\step-definitions\\LBG_offerstreps.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user clicks on optmize should land on optmize screen",
+            "result": {
+              "status": "passed",
+              "duration": 344624
+            },
+            "line": 8,
+            "match": {
+              "location": "d:\\Assignment-master\\functionalTestScripts-master\\step-definitions\\LBG_offerstreps.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "click on port account so that user can select the all existing accounts to transfer funds to LBG account",
+            "result": {
+              "status": "passed",
+              "duration": 359229
+            },
+            "line": 9,
+            "match": {
+              "location": "d:\\Assignment-master\\functionalTestScripts-master\\step-definitions\\LBG_offerstreps.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "click yes to confirm merge account and transfer successfull message should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 371467
+            },
+            "line": 10,
+            "match": {
+              "location": "d:\\Assignment-master\\functionalTestScripts-master\\step-definitions\\LBG_offerstreps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user should view transfered funds in LBG account from existing accounts",
+            "result": {
+              "status": "passed",
+              "duration": 338307
+            },
+            "line": 11,
+            "match": {
+              "location": "d:\\Assignment-master\\functionalTestScripts-master\\step-definitions\\LBG_offerstreps.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user should not view the other accounts which is ported in the Wallet screen",
+            "result": {
+              "status": "passed",
+              "duration": 452392
+            },
+            "line": 12,
+            "match": {
+              "location": "d:\\Assignment-master\\functionalTestScripts-master\\step-definitions\\LBG_offerstreps.js:61"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user logouts the application",
+            "result": {
+              "status": "passed",
+              "duration": 388047
+            },
+            "line": 13,
+            "match": {
+              "location": "d:\\Assignment-master\\functionalTestScripts-master\\step-definitions\\LBG_offerstreps.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 10883092879
+            },
+            "hidden": true,
+            "match": {
+              "location": "d:\\Assignment-master\\functionalTestScripts-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "as-an-end-user-i-need-to-merge-all/some-accounts-into-a-new-lbg-account",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "As an end user i need to merge all/some accounts into a new LBG account",
+    "tags": [],
+    "uri": "d:\\Assignment-master\\functionalTestScripts-master\\features\\LBG_Account.feature"
+  }
+]

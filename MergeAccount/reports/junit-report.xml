@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="as-an-end-user-i-need-to-merge-all/some-accounts-into-a-new-lbg-account;merge-all-account-into-new-lbg-account" tests="8" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="d:\Assignment-master\functionalTestScripts-master\features\LBG_Account.feature">
+            </property>
+        </properties>
+        <testcase name="Given user logs in to openbanking &quot;DEV&quot; and enters the valid &quot;alice&quot; and &quot;d29uZGVybGFuZA==&quot;" classname="as-an-end-user-i-need-to-merge-all/some-accounts-into-a-new-lbg-account;merge-all-account-into-new-lbg-account" time="0.00163864">
+        </testcase>
+        <testcase name="And navigates to Wallet page" classname="as-an-end-user-i-need-to-merge-all/some-accounts-into-a-new-lbg-account;merge-all-account-into-new-lbg-account" time="0.002406049">
+        </testcase>
+        <testcase name="When user clicks on optmize should land on optmize screen" classname="as-an-end-user-i-need-to-merge-all/some-accounts-into-a-new-lbg-account;merge-all-account-into-new-lbg-account" time="0.000508053">
+        </testcase>
+        <testcase name="And click on port account so that user can select the all existing accounts to transfer funds to LBG account" classname="as-an-end-user-i-need-to-merge-all/some-accounts-into-a-new-lbg-account;merge-all-account-into-new-lbg-account" time="0.000347781">
+        </testcase>
+        <testcase name="And click yes to confirm merge account and transfer successfull message should be displayed" classname="as-an-end-user-i-need-to-merge-all/some-accounts-into-a-new-lbg-account;merge-all-account-into-new-lbg-account" time="0.000512396">
+        </testcase>
+        <testcase name="Then user should view transfered funds in LBG account from existing accounts" classname="as-an-end-user-i-need-to-merge-all/some-accounts-into-a-new-lbg-account;merge-all-account-into-new-lbg-account" time="0.000311464">
+        </testcase>
+        <testcase name="And user should not view the other accounts which is ported in the Wallet screen" classname="as-an-end-user-i-need-to-merge-all/some-accounts-into-a-new-lbg-account;merge-all-account-into-new-lbg-account" time="0.000605953">
+        </testcase>
+        <testcase name="And user logouts the application" classname="as-an-end-user-i-need-to-merge-all/some-accounts-into-a-new-lbg-account;merge-all-account-into-new-lbg-account" time="0.000360414">
+        </testcase>
+    </testsuite>
+    <testsuite name="as-an-end-user-i-need-to-merge-all/some-accounts-into-a-new-lbg-account;merge-all-account-into-new-lbg-account" tests="8" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="d:\Assignment-master\functionalTestScripts-master\features\LBG_Account.feature">
+            </property>
+        </properties>
+        <testcase name="Given user logs in to openbanking &quot;DEV&quot; and enters the valid &quot;john&quot; and &quot;ZG9l&quot;" classname="as-an-end-user-i-need-to-merge-all/some-accounts-into-a-new-lbg-account;merge-all-account-into-new-lbg-account" time="0.000291332">
+        </testcase>
+        <testcase name="And navigates to Wallet page" classname="as-an-end-user-i-need-to-merge-all/some-accounts-into-a-new-lbg-account;merge-all-account-into-new-lbg-account" time="0.000364361">
+        </testcase>
+        <testcase name="When user clicks on optmize should land on optmize screen" classname="as-an-end-user-i-need-to-merge-all/some-accounts-into-a-new-lbg-account;merge-all-account-into-new-lbg-account" time="0.000344624">
+        </testcase>
+        <testcase name="And click on port account so that user can select the all existing accounts to transfer funds to LBG account" classname="as-an-end-user-i-need-to-merge-all/some-accounts-into-a-new-lbg-account;merge-all-account-into-new-lbg-account" time="0.000359229">
+        </testcase>
+        <testcase name="And click yes to confirm merge account and transfer successfull message should be displayed" classname="as-an-end-user-i-need-to-merge-all/some-accounts-into-a-new-lbg-account;merge-all-account-into-new-lbg-account" time="0.000371467">
+        </testcase>
+        <testcase name="Then user should view transfered funds in LBG account from existing accounts" classname="as-an-end-user-i-need-to-merge-all/some-accounts-into-a-new-lbg-account;merge-all-account-into-new-lbg-account" time="0.000338307">
+        </testcase>
+        <testcase name="And user should not view the other accounts which is ported in the Wallet screen" classname="as-an-end-user-i-need-to-merge-all/some-accounts-into-a-new-lbg-account;merge-all-account-into-new-lbg-account" time="0.000452392">
+        </testcase>
+        <testcase name="And user logouts the application" classname="as-an-end-user-i-need-to-merge-all/some-accounts-into-a-new-lbg-account;merge-all-account-into-new-lbg-account" time="0.000388047">
+        </testcase>
+    </testsuite>
+</testsuites>
